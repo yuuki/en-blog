@@ -1,0 +1,4 @@
+baseURL = "https://yuuk.io/en/blog"
+languageCode = "en-us"
+title = "<yuuk1>"
+theme = "er"
