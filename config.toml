@@ -2,9 +2,10 @@ baseURL = "https://yuuk.io/en/blog"
 languageCode = "en-us"
 title = "<yuuk1>"
 theme = "er"
-destination = "public/en/blog"
+publishDir = "public/en/blog"
+
 [taxonomies]
   category = "categories"
   tag = "tags"
-[params]
-  showTagCloud = false
+[permalinks]
+  posts = "/:year/:filename/"
