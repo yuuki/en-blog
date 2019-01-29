@@ -1,0 +1,10 @@
+<figure>
+  <img src="images/{{ .Get "src" }}">
+
+  {{ with .Get "cap"}}
+    <figcaption>
+      <p>{{.}}</p>
+    </figcaption>
+  {{ end }}
+
+</figure>
